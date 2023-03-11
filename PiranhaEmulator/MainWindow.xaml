@@ -1,0 +1,81 @@
+﻿<Window x:Class="PiranhaEmulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PiranhaEmulator"
+        mc:Ignorable="d"
+        Title="Эмулятор прибора ST031 &quot;Пиранья&quot;" Height="300" Width="700">
+    <Grid>
+        <DockPanel Margin="0,0,0,0" Height="17.96" HorizontalAlignment="Left" VerticalAlignment="Top" Width="700">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Файл">
+                    <MenuItem Header="_Open" />
+                    <MenuItem Header="_Close" />
+                    <MenuItem Header="_Save" />
+                </MenuItem>
+                <MenuItem Header="_Помощь">
+                    <MenuItem Header="_О программе" />
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Canvas x:Name="canvasDisplay" Margin="10,20
+                ,0,0" PreviewMouseUp="Canvas_PreviewMouseUp" Width="250" Height="128"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF638A6B">
+        </Canvas>
+        <Canvas Margin="270,20,0,0" PreviewMouseUp="Canvas_PreviewMouseUp" Width="297" Height="238"
+                HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Height="238" Width="297" Source="Assets/IMG_9548.png" HorizontalAlignment="Left"
+                   VerticalAlignment="Center" />
+            <Rectangle x:Name="button_0_Reset" Height="48" Canvas.Left="8" Stroke="Black" Canvas.Top="184" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"
+                       StrokeThickness="2.8" Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_1_Help" Height="48" Canvas.Left="9" Stroke="Black" Canvas.Top="9" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_2_Sa" Height="48" Canvas.Left="67" Stroke="Black" Canvas.Top="9" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_3_Osc" Height="48" Canvas.Left="124" Stroke="Black" Canvas.Top="9" Width="48"
+                       HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"
+                       StrokeThickness="2.8" Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_4_Set" Height="48" Canvas.Left="182" Stroke="Black" Canvas.Top="9" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"
+                       StrokeThickness="2.8" Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_5_Plus" Height="48" Canvas.Left="240" Stroke="Black" Canvas.Top="9" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_6_Load" Height="48" Canvas.Left="8" Stroke="Black" Canvas.Top="67" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_7_Minus" Height="48" Canvas.Left="240" Stroke="Black" Canvas.Top="67" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_8_Save" Height="48" Canvas.Left="8" Stroke="Black" Canvas.Top="125" Width="48"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="5"
+                       StrokeThickness="2.8" Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_9_Mute" Height="48" Canvas.Left="240" Stroke="Black" Canvas.Top="125" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_Run_Stop" Height="48" Canvas.Left="124" Stroke="Black" Canvas.Top="125"
+                       Width="48" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"
+                       StrokeThickness="2.8" Opacity="0.75" Fill="#00000000" />
+            <Rectangle x:Name="button_Enter" Height="48" Canvas.Left="240" Stroke="Black" Canvas.Top="183" Width="48"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5" StrokeThickness="2.8"
+                       Opacity="0" Fill="#00000000" />
+            <Ellipse x:Name="button_Left" Height="41" Canvas.Left="70" Stroke="Black" Canvas.Top="128.3" Width="41"
+                     Opacity="0.75" StrokeThickness="2.8" HorizontalAlignment="Left" VerticalAlignment="Center"
+                     Fill="#00000000" />
+            <Ellipse x:Name="button_Down" Height="41.3" Canvas.Left="128" Stroke="Black" Canvas.Top="186.5"
+                     Width="40.5" Opacity="0.75" StrokeThickness="2.8" HorizontalAlignment="Center"
+                     VerticalAlignment="Center" Fill="#00000000" />
+            <Ellipse x:Name="button_Right" Height="41.1" Canvas.Left="185.7" Stroke="Black" Canvas.Top="128.1"
+                     Width="40.6" Opacity="0.75" StrokeThickness="2.8" HorizontalAlignment="Left"
+                     VerticalAlignment="Center" Fill="#00000000" />
+            <Ellipse x:Name="button_Up" Height="40.6" Canvas.Left="128.1" Stroke="Black" Canvas.Top="70.4" Width="40.7"
+                     Opacity="0.75" StrokeThickness="2.8" HorizontalAlignment="Left" VerticalAlignment="Top"
+                     Fill="#00000000" />
+        </Canvas>
+
+    </Grid>
+</Window>
