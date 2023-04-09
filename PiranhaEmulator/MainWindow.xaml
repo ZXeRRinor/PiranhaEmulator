@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PiranhaEmulator"
         mc:Ignorable="d"
-        Title="Эмулятор прибора ST031 &quot;Пиранья&quot;" Height="300" Width="700">
+        Title="Эмулятор прибора ST031 &quot;Пиранья&quot;" Height="500" Width="1099">
     <Grid>
-        <DockPanel Margin="0,0,0,0" Height="17.96" HorizontalAlignment="Left" VerticalAlignment="Top" Width="700">
+        <DockPanel Margin="0,0,0,0" Height="17.96" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1099">
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_Файл">
                     <MenuItem Header="_Open" />
@@ -20,10 +20,11 @@
             </Menu>
         </DockPanel>
         <Canvas x:Name="canvasDisplay" Margin="10,20
-                ,0,0" PreviewMouseUp="Canvas_PreviewMouseUp" Width="250" Height="128"
+                ,0,0" PreviewMouseUp="Canvas_PreviewMouseUp"
+                Width="749" Height="383"
                 HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF638A6B">
         </Canvas>
-        <Canvas Margin="270,20,0,0" PreviewMouseUp="Canvas_PreviewMouseUp" Width="297" Height="238"
+        <Canvas Margin="774,20,0,0" PreviewMouseUp="Canvas_PreviewMouseUp" Width="297" Height="238"
                 HorizontalAlignment="Left" VerticalAlignment="Top">
             <Image Height="238" Width="297" Source="Assets/IMG_9548.png" HorizontalAlignment="Left"
                    VerticalAlignment="Center" />
@@ -76,6 +77,21 @@
                      Opacity="0.75" StrokeThickness="2.8" HorizontalAlignment="Left" VerticalAlignment="Top"
                      Fill="#00000000" />
         </Canvas>
+        <RadioButton x:Name="rbModeIr" Content="IR Detector" HorizontalAlignment="Left" Margin="866,294,0,0" VerticalAlignment="Top"
+                     GroupName="Mode"
+                     IsChecked="{Binding ModeArray[0], BindsDirectlyToSource=True, Mode=TwoWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" />
+        <RadioButton x:Name="rbModeRf" Content="RF Detector" HorizontalAlignment="Left" Margin="866,310,0,0" VerticalAlignment="Top"
+                     GroupName="Mode"
+                     IsChecked="{Binding ModeArray[1], BindsDirectlyToSource=True, Mode=TwoWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" />
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="866,326,0,0" VerticalAlignment="Top"
+                     GroupName="Mode"
+                     IsChecked="{Binding ModeArray[2], BindsDirectlyToSource=True, Mode=TwoWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" Visibility="Hidden" />
+        <Slider x:Name="sliderEffectIntensity" HorizontalAlignment="Left" Margin="875,381,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sliderEffectIntensity_ValueChanged"/>
+        <Label Content="Интенсивность:" HorizontalAlignment="Left" Margin="774,377,0,0" VerticalAlignment="Top" />
+        <CheckBox x:Name="cbPower" Content="Питание" HorizontalAlignment="Left" Margin="774,278,0,0" VerticalAlignment="Top" Checked="cbPower_Checked" Unchecked="cbPower_Unchecked" />
+        <Label Content="Режим:" HorizontalAlignment="Left" Margin="860,272,0,0" VerticalAlignment="Top" />
+        <CheckBox x:Name="cbTestMode" Content="Тест" HorizontalAlignment="Left" Margin="774,298,0,0" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>

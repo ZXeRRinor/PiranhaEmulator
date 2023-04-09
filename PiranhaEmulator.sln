@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiranhaEmulator", "PiranhaEmulator\PiranhaEmulator.csproj", "{4252A5A3-07A8-43E4-9D41-AF3644EDBED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiranhaEmulator", "PiranhaEmulator\PiranhaEmulator.csproj", "{4252A5A3-07A8-43E4-9D41-AF3644EDBED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlyphCreator", "GlyphCreator\GlyphCreator.csproj", "{7F7CD223-73C0-410E-89BC-FE75EF456410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4252A5A3-07A8-43E4-9D41-AF3644EDBED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4252A5A3-07A8-43E4-9D41-AF3644EDBED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4252A5A3-07A8-43E4-9D41-AF3644EDBED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7CD223-73C0-410E-89BC-FE75EF456410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7CD223-73C0-410E-89BC-FE75EF456410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7CD223-73C0-410E-89BC-FE75EF456410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7CD223-73C0-410E-89BC-FE75EF456410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

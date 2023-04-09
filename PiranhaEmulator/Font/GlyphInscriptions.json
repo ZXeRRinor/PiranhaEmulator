@@ -1,0 +1,598 @@
+{
+  "A": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "B": [
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, false ]
+  ],
+  "C": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "D": [
+    [ true, true, true, false, false ],
+    [ true, false, false, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, true, false ],
+    [ true, true, true, false, false ]
+  ],
+  "E": [
+    [ true, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, true ]
+  ],
+  "F": [
+    [ true, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ]
+  ],
+  "H": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "I": [
+    [ false, true, true, true, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ]
+  ],
+  "J": [
+    [ false, false, false, true, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "K": [
+    [ true, false, false, false, true ],
+    [ true, false, false, true, false ],
+    [ true, false, true, false, false ],
+    [ true, true, false, false, false ],
+    [ true, false, true, false, false ],
+    [ true, false, false, true, false ],
+    [ true, false, false, false, true ]
+  ],
+  "L": [
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, true ]
+  ],
+  "M": [
+    [ true, false, false, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, false, true, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "N": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, false, false, true ],
+    [ true, false, true, false, true ],
+    [ true, false, false, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "O": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "P": [
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ]
+  ],
+  "R": [
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, false ],
+    [ true, false, true, false, false ],
+    [ true, false, false, true, false ],
+    [ true, false, false, false, true ]
+  ],
+  "S": [
+    [ false, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ true, true, true, true, false ]
+  ],
+  "T": [
+    [ true, true, true, true, true ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ]
+  ],
+  "U": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "V": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, false, true, false ],
+    [ false, false, true, false, false ]
+  ],
+  "W": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, true, false, true ],
+    [ true, false, true, false, true ],
+    [ true, false, true, false, true ],
+    [ false, true, false, true, false ]
+  ],
+  "Y": [
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ]
+  ],
+  "a": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ false, false, false, false, true ],
+    [ false, true, true, true, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, true ]
+  ],
+  "c": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "d": [
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ false, true, true, false, true ],
+    [ true, false, false, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, true ]
+  ],
+  "e": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ false, true, true, true, false ]
+  ],
+  "g": [
+    [ false, false, false, false, false ],
+    [ false, true, true, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, true ],
+    [ false, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "h": [
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, true, true, false ],
+    [ true, true, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "i": [
+    [ false, false, true, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ]
+  ],
+  "l": [
+    [ false, true, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ]
+  ],
+  "m": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, true, false, true, false ],
+    [ true, false, true, false, true ],
+    [ true, false, true, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "n": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ]
+  ],
+  "o": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "r": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, false, true, true, false ],
+    [ true, true, false, false, true ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, false, false, false, false ]
+  ],
+  "s": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ true, false, false, false, false ],
+    [ false, true, true, true, false ],
+    [ false, false, false, false, true ],
+    [ true, true, true, true, false ]
+  ],
+  "t": [
+    [ false, true, false, false, false ],
+    [ false, true, false, false, false ],
+    [ true, true, true, false, false ],
+    [ false, true, false, false, false ],
+    [ false, true, false, false, false ],
+    [ false, true, false, false, true ],
+    [ false, false, true, true, false ]
+  ],
+  "v": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, false, true, false ],
+    [ false, false, true, false, false ]
+  ],
+  "y": [
+    [ false, false, false, false, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, true ],
+    [ false, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "z": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, true, true, true, true ],
+    [ false, false, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, true, false, false, false ],
+    [ true, true, true, true, true ]
+  ],
+  " ": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ]
+  ],
+  "-": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, true, true, true, true ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ]
+  ],
+  "=": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ true, true, true, true, true ],
+    [ false, false, false, false, false ],
+    [ true, true, true, true, true ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ]
+  ],
+  ".": [
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, false, false, false ],
+    [ false, true, true, false, false ],
+    [ false, true, true, false, false ]
+  ],
+  ">": [
+    [ true, false, false, false, false ],
+    [ false, true, false, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, true, false, false, false ],
+    [ true, false, false, false, false ]
+  ],
+  "!": [
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, false, false, false ],
+    [ false, false, true, false, false ]
+  ],
+  "0": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "1": [
+    [ false, false, true, false, false ],
+    [ false, true, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ]
+  ],
+  "2": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, true, false, false, false ],
+    [ true, true, true, true, true ]
+  ],
+  "3": [
+    [ true, true, true, true, true ],
+    [ false, false, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, false, false, true, false ],
+    [ false, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "4": [
+    [ false, false, false, true, false ],
+    [ false, false, true, true, false ],
+    [ false, true, false, true, false ],
+    [ true, false, false, true, false ],
+    [ true, true, true, true, true ],
+    [ false, false, false, true, false ],
+    [ false, false, false, true, false ]
+  ],
+  "5": [
+    [ true, true, true, true, true ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, false ],
+    [ false, false, false, false, true ],
+    [ false, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "6": [
+    [ false, false, true, true, false ],
+    [ false, true, false, false, false ],
+    [ true, false, false, false, false ],
+    [ true, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "7": [
+    [ true, true, true, true, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, true, false ],
+    [ false, false, true, false, false ],
+    [ false, true, false, false, false ],
+    [ false, true, false, false, false ],
+    [ false, true, false, false, false ]
+  ],
+  "8": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, false ]
+  ],
+  "9": [
+    [ false, true, true, true, false ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ false, true, true, true, true ],
+    [ false, false, false, false, true ],
+    [ false, false, false, true, false ],
+    [ false, true, true, false, false ]
+  ],
+  "↑": [
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ],
+    [ true, true, true, true, true ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ]
+  ],
+  "↓": [
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ true, true, true, true, true ],
+    [ false, true, true, true, false ],
+    [ false, false, true, false, false ]
+  ],
+  "sound": [
+    [ false, false, false, false, true, true ],
+    [ false, false, false, true, false, true ],
+    [ true, true, true, false, false, true ],
+    [ true, false, true, false, false, true ],
+    [ true, false, true, false, false, true ],
+    [ true, true, true, false, false, true ],
+    [ false, false, false, true, false, true ],
+    [ false, false, false, false, true, true ]
+  ],
+  "mute": [
+    [ false, false, true, false, true, true, false, false, false, true ],
+    [ false, false, false, true, false, true, false, false, true, false ],
+    [ true, true, true, false, true, true, false, true, false, false ],
+    [ true, false, true, false, false, true, true, false, false, false ],
+    [ true, false, true, false, false, true, true, false, false, false ],
+    [ true, true, true, false, true, true, false, true, false, false ],
+    [ false, false, false, true, false, true, false, false, true, false ],
+    [ false, false, true, false, true, true, false, false, false, true ]
+  ],
+  "battery": [
+    [ false, false, true, true, true, true, true, true, true, true, true, true ],
+    [ true, true, true, true, true, true, true, true, true, true, true, true ],
+    [ true, false, true, true, true, true, true, true, true, true, true, true ],
+    [ true, true, true, true, true, true, true, true, true, true, true, true ],
+    [ false, false, true, true, true, true, true, true, true, true, true, true ]
+  ],
+  "ir_delimiter": [
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ false, true, true, true, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, false, true, false, false ],
+    [ false, true, true, true, false ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ]
+  ],
+  "ir_blank": [
+    [ true, true, true, true, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, false, false, false, true ],
+    [ true, true, true, true, true ]
+  ],
+  "ir_semifilled": [
+    [ true, true, true, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, false, true, true ],
+    [ true, false, true, false, true ],
+    [ true, true, true, true, true ]
+  ],
+  "ir_filled": [
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ],
+    [ true, true, true, true, true ]
+  ]
+}
